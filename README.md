@@ -12,7 +12,7 @@ Projeto desenvolvido para a disciplina de Desenvolvimento Front-End.
 - Deploy no GitHub Pages
 
 ## 🚀 Link do site
-[Acesse aqui](https://seuusuario.github.io/ong-esperanca/)
+[Acesse aqui](joãomatheus.github.io/ong-esperanca/)
 
 ## 🧑‍💻 Tecnologias
 - HTML5
@@ -21,4 +21,4 @@ Projeto desenvolvido para a disciplina de Desenvolvimento Front-End.
 - GitHub Pages
 
 ## 📄 Autor
-**SJOÃO MATHEUS UCHOAS**
+**JOÃO MATHEUS UCHOAS**
