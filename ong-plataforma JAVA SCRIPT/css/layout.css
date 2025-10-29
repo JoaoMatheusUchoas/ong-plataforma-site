@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import './variables.css';
+@import './layout.css';
+@import './components.css';
+
+/* Estilos adicionais globais */
+h1, h2, h3 {
+  color: var(--color-primary);
+}
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
