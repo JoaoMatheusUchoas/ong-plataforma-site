@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projetos — ONG Exemplo</title>
+  <meta name="description" content="Página de projetos da ONG Exemplo — oportunidades de voluntariado e como doar." />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html"><img src="assets/images/logo.png" alt="Logo ONG Exemplo" class="logo"></a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Projetos</h1>
+    <p>Conheça os projetos em andamento e oportunidades de voluntariado.</p>
+
+    <section aria-labelledby="lista-projetos">
+      <h2 id="lista-projetos" class="sr-only">Lista de projetos</h2>
+      <ul class="project-grid">
+        <li class="project-card">
+          <img src="assets/images/projeto-1.jpg" alt="Oficina de apoio escolar" loading="lazy">
+          <h3>Oficina de Apoio Escolar</h3>
+          <p>Descrição curta do projeto, público-alvo e impacto.</p>
+          <p><strong>Vagas:</strong> 10 voluntários</p>
+          <p><a class="btn" href="cadastro.html">Quero me candidatar</a></p>
+        </li>
+
+        <li class="project-card">
+          <img src="assets/images/projeto-2.jpg" alt="Banco de alimentos" loading="lazy">
+          <h3>Banco de Alimentos Comunitário</h3>
+          <p>Descrição curta.</p>
+          <p><strong>Meta:</strong> 1.000 cestas</p>
+          <p><a class="btn" href="cadastro.html">Doar / Voluntariar</a></p>
+        </li>
+
+        <!-- Adicione quantos cards forem necessários -->
+      </ul>
+    </section>
+
+    <aside class="filters" aria-label="Filtros de projetos">
+      <h2>Filtrar por</h2>
+      <form>
+        <label>
+          Categoria
+          <select>
+            <option>Educação</option>
+            <option>Alimentação</option>
+            <option>Saúde</option>
+          </select>
+        </label>
+        <label>
+          Local
+          <input type="text" placeholder="Cidade" />
+        </label>
+      </form>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-2"></span> ONG Exemplo</p>
+    </div>
+  </footer>
+<script type="module" src="js/app.js"></script>
+
+  <script src="js/scripts.js" defer></script>
+</body>
+</html>
